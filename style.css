@@ -18,7 +18,8 @@
 @media (prefers-color-scheme: dark) {
     :root{
         --colour-1: #f0f6f0;
-        --colour-2: #222323;
+        /*--colour-2: #222323;*/
+        --colour-2: #083b3b;
     }
 }
 
@@ -70,6 +71,12 @@ footer {
     display: flex;
     justify-content: center;
     margin-block-start: 3rem;
+}
+
+.sub {
+    font-style: bold, italic;
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 
 /*technique from Kevin Powell*/
