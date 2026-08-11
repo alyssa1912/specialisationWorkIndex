@@ -71,6 +71,10 @@ footer {
     margin-block-start: 3rem;
 }
 
+p {
+    margin-bottom: 20px;
+}
+
 .pictures {
   border-radius: 20px;
 }
