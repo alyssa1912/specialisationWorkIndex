@@ -15,7 +15,7 @@
 /*remember to update the colours here too to reflect the above changes*/
 @media (prefers-color-scheme: dark) {
     :root{
-        --colour-1: #b6e5e5;
+        --colour-1: #c9eeee;
         /*--colour-2: #222323;*/
         --colour-2: #083b3b;
     }
@@ -71,6 +71,9 @@ footer {
     margin-block-start: 3rem;
 }
 
+.pictures {
+  border-radius: 20px;
+}
 
 /*technique from Kevin Powell*/
 /*https://youtu.be/CU8Plk-53RU?si=zMpP0Pfbg1SaXeDB&t=255*/
