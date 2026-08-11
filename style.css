@@ -9,6 +9,10 @@
     /* https://lospec.com/palette-list/1bit-monitor-glow */
     --colour-1: #083b3b;
     --colour-2: #8dd2d2;
+
+    a {
+        color: #086f1d;
+    }
 }
 
 /* this swaps the colour order to account for user's OS dark mode */
@@ -19,6 +23,7 @@
         /*--colour-2: #222323;*/
         --colour-2: #083b3b;
     }
+    
 }
 
 
