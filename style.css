@@ -3,7 +3,6 @@
 /*remember to update them in the rest of the CSS : eg the body selector*/
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/*!!!!!*/
 /*change out, and/or add colours to the colour scheme*/
 :root{
     /* basic 2-bit palette from 1bit Monitor Glow Palette by Polyducks */
@@ -13,7 +12,6 @@
 }
 
 /* this swaps the colour order to account for user's OS dark mode */
-/*!!!!!*/
 /*remember to update the colours here too to reflect the above changes*/
 @media (prefers-color-scheme: dark) {
     :root{
