@@ -144,3 +144,34 @@ p {
 @media (width < 600px) {
 
 }
+
+table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 20px;
+color: #ffffff;
+font-size: 0.95rem;
+border-radius: 10px;
+overflow: hidden;
+}
+
+thead {
+background-color: #247504;
+color: #000000;
+}
+
+thead th {
+padding: 10px;
+text-align: left;
+font-weight: 500;
+border-bottom: 5px solid #0b5a2a;
+
+}
+
+td {
+padding: 12px 14px;
+border-bottom: 1px solid #d4bfd4;
+border-right: 2px solid #ffffff;
+vertical-align: top;
+line-height: 1.4;
+}
