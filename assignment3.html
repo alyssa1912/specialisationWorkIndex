@@ -49,8 +49,9 @@
                 </p>
 
                 <h3>Design Scenario and Response </h3>
-                <p> Chosen Scenario: Musical Toy for Toddlers </p>
-                <p> Prompt - Design a way for young children with minimal language skills to explore music.</p>
+                <br>
+                <p style="font-weight:500;" > Chosen Scenario: Musical Toy for Toddlers </p>
+                <p style="font-weight:500;"> Prompt - Design a way for young children with minimal language skills to explore music.</p>
 
                 <p> 
                     The design scenario explores how many browser-based instruments are powerful tools for creating 
@@ -74,9 +75,33 @@
                     design reduces reliance on text and communicates through visual cues, movement and sound. The experience 
                     encourages curiosity and independent exploration without requiring musical knowledge or complicated controls.
                 </p>
+
+                <h3> Core Interactive Features & Design System Documentation </h3>
+                
+                <br>
+                <p style="font-weight:500;"> 1. Keyboard Interaction and Sound</p>
+                <p> I chose the keyboard as the main form of interaction for the instrument to keep the interactions simple 
+                    & straightforward. Users are not required to navigate complex menus or controls, supporting the project's purpose of 
+                    making music approachable for young audiences. Each letter key has a corresponding sound and I included a variety of 
+                    unique sound effects to make the experience more playful and encourage creative exploration. Keys A-N produce notes 
+                    that gradually change in pitch, then keys Q-T introduce a different sound effect, available in four different pitches. 
+                    This variety encourages experimentation and keeps the musical experience playful and engaging.
+                </p>
+
+                <p style="font-weight:500;"> Extended technique: Math.random() </p>
+                <p> I implemented this technique because it introduces variation into the instrument's visual feedback, making the experience less 
+                    predictable and encouraging continued exploration. During the exploration stage, I used this technique to assign a random position 
+                    to the stars when a key was pressed, allowed the star to appear in different positions rather than following a fixed pattern.
+                    In the final instrument, I chose to apply Math.random() to image selection. When a key is pressed, one of 8 available star images 
+                    can be randomly selected and displayed. This meant the same key could produce different visual results when interacted with. I felt 
+                    that the implementation of this technique encourages curiosity and playful experimentation while still keeping the interaction simple.
+                </p>
+
             </section>
 
         </main>
+
+        <aside></aside>
     </div>
 
     <footer>
